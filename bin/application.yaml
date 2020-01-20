@@ -1,0 +1,18 @@
+spring:
+   application:
+      name: file-reprocess
+   datasource:
+      validationQuery: SELECT 1
+      host: localhost
+      port: 3306
+      username: root
+      password: root
+server:
+   port: 8111
+   
+ilibrary:
+   aws:
+      accessKeyId: 23434
+      secretKey: 4ogjgjhgB/ZmwD22nZ4bN+AK
+      bucketName: file-reprocess
+   
